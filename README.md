@@ -23,7 +23,7 @@ The majority of the work done on this assignment dealt with updating the major d
 
 The HTML saw updates to inclue semantic elements being tagged (such as main, for main; article, for article; footer, for footer; etc), id tags added in to be referenced when links would be selected, and the addition of alt tags to meet accessiblity standards.  One other adjustment was made to the source images and using resized files to decrease load time.
 
-The CSS saw updates to group similar styling - Search Engine Optimization did not require separate styling from Online Rep Management and Social Media Marketing, so all those elements were combined, and assigned with a new class tag "article." Within that, the header and image tags also were grouped together, shrinking 9 distinct classes to 3.  A similar logic was applied to the "details" elements.
+The CSS saw updates to group similar styling - Search Engine Optimization did not require separate styling from Online Rep Management and Social Media Marketing, so all those elements were combined, and assigned with a new class tag "article." Within that, the header and image tags also were grouped together, shrinking 9 distinct classes to 3.  A similar logic was applied to elements in the "aside" sidebar.
 
 ```html
 <html>
