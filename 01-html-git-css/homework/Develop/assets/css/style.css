@@ -20,6 +20,7 @@ body {
     font-size: 48px;
 }
 
+/* shorten class name */ 
 .seo {
     color: #d9dcd6;
 }
@@ -32,11 +33,13 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* shorten class name */ 
+.header ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* shorten class name */ 
+.header li {
     display: inline-block;
     margin-left: 25px;
 }
