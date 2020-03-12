@@ -20,33 +20,41 @@ This project is to refactor an existing webpage to make it accessible. In order 
 
 ## Code Snippet
 
+The majority of the work done on this assignment dealt with updating the major data points for the page: the Search Engine Optimization, Online Rep Management, and Social Media Marketing, and the controlling style elements, therefore, those are the elements I am highlighting with this code snippet.
+
+The HTML saw updates to inclue semantic elements being tagged (such as content, for content; footer, for footer; etc), id tags added in to be referenced when links would be selected, and the addition of alt tags to meet accessiblity standards.  One other adjustment was made to the source images and using resized files to decrease load time.
+
+The CSS saw updates to group similar styling - Search Engine Optimization did not require separate styling from Online Rep Management and Social Media Marketing, so all those elements were combined, and assigned with a new class tag "main." Within that, the header and image tags also were grouped together, shrinking 9 distinct classes to 3.  A similar logic was applied to the "benefit" elements.
+
 ```html
 <html>
 
-    <!-- replace div with content  -->
+     <!-- replace div with content  -->
     <content class="content">    
         <!-- add id=search-engine-optimization  -->
-        <div class="main">
+        <div class="main" id="search-engine-optimization">
             <!-- add alt tag and adjust image source to correspond with sizing adjustment to source image -->
-            <img src="./images/search-engine-optimization.jpg" class="float-left" alt=""/>
+            <img src="./images/search-engine-optimization.jpg" class="float-left" alt="workstation with SEO notes"/>
                 <h2>Search Engine Optimization</h2>
                     <p>
                       The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
                     </p>
         </div>
 
-        <div class="main">
+        <!-- add id=online-reputation-management  -->
+        <div class="main" id="online-reputation-management">
             <!-- add alt tag and adjust image source to correspond with sizing adjustment to source image -->
-            <img src="./images/online-reputation-management.jpg" class="float-right" alt=""/>
+            <img src="./images/online-reputation-management.jpg" class="float-right" alt="laptop screen showing increasing reputation metrics"/>
                 <h2>Online Reputation Management</h2>
                     <p>
                       The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
                     </p>
         </div>
 
-        <div class="main">
+        <!-- add id=social-media-marketing  -->
+        <div class="main" id="social-media-marketing">
             <!-- add alt tag and adjust image source to correspond with sizing adjustment to source image -->
-            <img src="./images/social-media-marketing.jpg" class="float-left" alt=""/>
+            <img src="./images/social-media-marketing.jpg" class="float-left" alt="table displaying numerous social media related icons and phrases"/>
                 <h2>Social Media Marketing</h2>
                     <p>
                       Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
