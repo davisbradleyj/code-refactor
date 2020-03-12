@@ -116,33 +116,33 @@ aside {
 
 /* Grouped lead gen, brand, cost management elements together */
 
-details { 
+.benefit { 
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* Grouped lead gen, brand, cost management h3 elements together */
 
-.details h3{
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* Grouped lead gen, brand, cost management img elements together */
 
-.details img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.details {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
